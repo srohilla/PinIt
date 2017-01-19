@@ -1,0 +1,22 @@
+{
+  "name": "tododapp",
+  "version": "1.0.0",
+  "description": "To do application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"toDo\"",
+    "\"application\""
+  ],
+  "author": "srohilla",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.7"
+  }
+}

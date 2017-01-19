@@ -1,0 +1,28 @@
+<html>
+
+<head>
+  <title>To DO app</title>
+
+
+<link href="/assets/styles.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+<script src="/assets/todo-list.js"></script>
+
+</head>
+
+<body>
+<h1>Jot It Down..On the Cloud !</h1>
+<div id="todo-table">
+<form method="post" action="/toDo">
+<input type="text" name="item" placeholder="Add new item.." required="true"/>
+<button type="submit">Add Item</button>
+
+  </form>
+  <ul>
+    <% todoList.forEach(function(itemList){ %>
+     <li><%= itemList.item %><li>
+    <% }); %>
+    <ul>
+</div>
+</body>
+</html>
